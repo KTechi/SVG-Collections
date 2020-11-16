@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.1"
+     viewBox="0 0 200 200">
+  
+  
+  <!-- Background -->
+  <rect fill="#ADF" x="0" y="0" width="200" height="200"/>
+  
+  <defs>
+    <g id="tree">
+      <path fill="#421"
+            d="M  70  60
+               h  10
+               v  30
+               l  20 -20
+               l   6   6
+               l -26  26
+               v  50
+               h -10
+               Z"/>
+      <path fill="#3C3"
+            d="M 50 30
+               a 15 15, 0 1 1, 25 -10
+               a 10 10, 0 1 1, 15   5
+               a 12 12, 0 1 1,  5  20
+               a 10 10, 0 1 1,-10  15
+               a  6  6, 0 1 1,-10   5
+               a 10 10, 0 1 1,-20   0
+               a  6  6, 0 1 1, -5 -15
+               a 10 10, 0 1 1,  0 -20
+               Z"/>
+    </g>
+  </defs>
+  
+  <!-- Tree -->
+  <use xlink:href="#tree">
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      begin="-0.5s"
+                      dur="1.2s"
+                      repeatCount="indefinite"
+                      values="-130; 170"/>
+  </use>
+  
+  <!-- Car -->
+  <path fill="#222"
+        d="M   7 141
+           L  22 118
+           L 179 116
+           L 189 130
+           C 188 140, 183 146, 172 147
+           L  21 146
+           Q  20 146,  19 147
+           C  16 143,  12 146,   7 141 Z"/>
+  <path fill="#C34"
+        d="M   6 124
+           C  10 120,  30 112,  50 110
+           C  98  84, 125  85, 170 100
+           C 176 102, 179 103, 190 106
+           C 189 109, 189 120, 189 130
+           C 189 135, 185 136, 174 137
+           A 19.7 19.7, 0 0 0, 135 140
+           L  55 142
+           A 19.6 19.6, 0 1 0,  16 142
+           C  12 142,   8 142,   7 141
+           C   6 140,   5 136,   6 133
+           C   7 130,   5 125,   6 124 Z"/>
+  <path fill="#FFF"
+        d="M   8 123.5
+           Q  13 120.2,  18.5 118.5
+           Q  21 118.3,  24 119.5
+           Q  18 126.0, 8.7 126
+           Q 7.8 125.2,   8 123.5 Z"/>
+  <path fill="#114" stroke="#DDD" stroke-width="0.5"
+        d="M  53 113
+           C  85  93, 120 83, 167 103
+           C 167 108, 140 110, 53 113 Z"/>
+  <line stroke="#EEE" stroke-width="1.2" x1="98" y1="116" x2="113" y2="115.3"/>
+  <path fill="#F33"
+        d="M 189 116
+           Q 176 116, 176 114
+           C 177 113, 189 108, 189.4 110
+           Q 189.7 113, 189 116 Z"/>
+  
+  <!-- Wheel -->
+  <circle fill="#444" cx=" 35.5" cy="140.0" r="15.5"/>
+  <circle fill="#444" cx="154.7" cy="140.8" r="15.5"/>
+  <circle fill="#555" cx=" 35.5" cy="140.0" r="12.5"/>
+  <circle fill="#555" cx="154.7" cy="140.8" r="12.5"/>
+  <defs>
+    <path id="wheel"
+          fill="#333"
+          d="M 35.5 140.0
+             l 1 -12.5 a 12.5 12.5, 0 0 0,-2 0 Z
+             l 12.5 -1 a 12.5 12.5, 0 0 0, 0 2 Z
+             l -1 12.5 a 12.5 12.5, 0 0 0, 2 0 Z
+             l -12.5 1 a 12.5 12.5, 0 0 0, 0-2 Z
+             l 8.1 -9.5 a 12.5 12.5, 0 0 0,  1.4  1.4 Z
+             l 8.1  9.5 a 12.5 12.5, 0 0 0,  1.4 -1.4 Z
+             l -8.1 9.5 a 12.5 12.5, 0 0 0, -1.4 -1.4 Z
+             l -8.1-9.5 a 12.5 12.5, 0 0 0, -1.4  1.4 Z"/>
+  </defs>
+  <use xlink:href="#wheel">
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      dur="1s"
+                      repeatCount="indefinite"
+                      values="0 35.5 140.0; -360 35.5 140.0"/>
+  </use>
+  <use xlink:href="#wheel" transform="translate(119.2)">
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      dur="1s"
+                      repeatCount="indefinite"
+                      values="0 35.5 140.0; -360 35.5 140.0"
+                      additive="sum"/>
+  </use>
+  <circle fill="#444" cx="35.5" cy="140.0" r="4"/>
+  <circle fill="#444" cx="154.7" cy="140.8" r="4"/>
+  
+  <!-- Tree -->
+  <use xlink:href="#tree" transform="translate(0 20)">
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      dur="1.2s"
+                      repeatCount="indefinite"
+                      values="-130; 170"
+                      additive="sum"/>
+  </use>
+  
+  
+</svg>

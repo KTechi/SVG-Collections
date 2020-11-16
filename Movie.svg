@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.1"
+     viewBox="0 0 200 200">
+  
+  
+  <!-- Background -->
+  <rect fill="#3D8" x="0" y="0" width="200" height="200"/>
+  
+  <!-- Film -->
+  <circle fill="#FFF" cx=" 90" cy="55" r="25"/>
+  <circle fill="#3D8" cx=" 90" cy="55" r="20"/>
+  <circle fill="#000" cx=" 90" cy="55" r="13"/>
+  <circle fill="#FFF" cx=" 90" cy="55" r="10"/>
+  <circle fill="#FFF" cx="140" cy="55" r="25"/>
+  <circle fill="#3D8" cx="140" cy="55" r="20"/>
+  <circle fill="#000" cx="140" cy="55" r="15"/>
+  <circle fill="#FFF" cx="140" cy="55" r="10"/>
+  <path fill="#FFF"
+        d="M  87 35 h  6 v 40 h -6 Z
+           m -17 23 v -6 h 40 v  6 Z">
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      dur="1s"
+                      keyTimes="0; 1"
+                      repeatCount="indefinite"
+                      values="0  90 55; -90 90 55"/>
+  </path>
+  <path fill="#FFF"
+        d="M 137 35 h  6 v 40 h -6 Z
+           m -17 23 v -6 h 40 v  6 Z">
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      dur="1s"
+                      keyTimes="0; 1"
+                      repeatCount="indefinite"
+                      values="0 140 55; -90 140 55"/>
+  </path>
+  
+  <!-- Light -->
+  <path fill="#FF0"
+        d="M 60 105
+           l -60 10
+           v -40
+           l 60 10
+           Z"/>
+  <line stroke="#3D8" x1="0" y1="95" x2="120" y2="95" stroke-width="3">
+    <animate attributeName="y1"
+             begin="-0.0s"
+             dur="0.3s"
+             keyTimes="0; 0.5; 1"
+             repeatCount="indefinite"
+             values="75; 115; 75"/>
+  </line>
+  <line stroke="#3D8" x1="0" y1="95" x2="120" y2="95" stroke-width="3">
+    <animate attributeName="y1"
+             begin="-0.1s"
+             dur="0.3s"
+             keyTimes="0; 0.5; 1"
+             repeatCount="indefinite"
+             values="75; 115; 75"/>
+  </line>
+  <line stroke="#3D8" x1="0" y1="95" x2="120" y2="95" stroke-width="3">
+    <animate attributeName="y1"
+             begin="-0.2s"
+             dur="0.3s"
+             keyTimes="0; 0.5; 1"
+             repeatCount="indefinite"
+             values="75; 115; 75"/>
+  </line>
+  
+  <!-- Projector -->
+  <rect fill="#444" x="70" y="70" width="90" height="50" rx="5"/>
+  <path fill="#222"
+        d="M  70 105
+           h -10
+           l  -5 5
+           h -10
+           v -30
+           h  10
+           l   5 5
+           h  10
+           Z"/>
+  <path fill="#222"
+        d="M 110 120
+           l -20 50
+           h  10
+           l  15 -37.5
+           l  15  37.5
+           h  10
+           l -20 -50
+           Z"/>
+  <circle fill="#E55" cx="80" cy="80" r="4"/>
+  <circle fill="#5E5" cx="95" cy="80" r="4"/>
+  <rect fill="#D62" x="70" y="105" width="90" height="10"/>
+  
+  
+</svg>

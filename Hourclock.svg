@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.1"
+     viewBox="0 0 200 200">
+  
+  
+  <!-- Background -->
+  <rect fill="#6EE" x="0" y="0" width="200" height="200"/>
+  
+  <!-- Glass -->
+  <path fill="#FFF"
+        d="M 140 40
+           c 0  30, -37  40, -37  60
+           c 0  20,  37  30,  37  60
+           c 0  25, -80  25, -80   0
+           c 0 -30,  37 -40,  37 -60
+           c 0 -20, -37 -30, -37 -60
+           c 0 -25,  80 -25,  80   0 Z">
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      dur="10s"
+                      keyTimes="0; 0.9; 1"
+                      repeatCount="indefinite"
+                      values="0 100 100; 0 100 100; 180 100 100"/>
+  </path>
+  
+  <defs>
+    <mask id="inside-top">
+      <path fill="#FFF"
+            d="M 138 42
+               c  0  25, -37  38, -37  58
+               h -2
+               c  0 -20, -37 -33, -37 -58
+               c -2 -25,  78 -25,  76   0 Z"/>
+    </mask>
+    <mask id="inside-bottom">
+      <path fill="#FFF"
+            d="M 101 100
+               c  0  20,  37  33,  37  58
+               c  2  25, -78  25, -76   0
+               c  0 -25,  37 -38,  37 -58 Z"/>
+    </mask>
+    <path id="top-sand" fill="#F8F" d="M 60 80 c  40 -40, 40 -40, 80 0 v 30 h -80 v -30 Z">
+      <animateTransform attributeName="transform"
+                        type="translate"
+                        calcMode="spline"
+                        dur="10s"
+                        keySplines="0.5 0.3 1 0.7; 0 0 1 1"
+                        keyTimes="0; 0.85; 1"
+                        repeatCount="indefinite"
+                        values="0 0; 0 50; 0 50"/>
+    </path>
+    <path id="bottom-sand" fill="#F8F">
+      <animate attributeName="d"
+               dur="10s"
+               repeatCount="indefinite"
+               keyTimes="0; 0.05; 0.85; 0.9; 0.94; 1"
+               values="M  60 207
+                       c  40 -40,  40 -40, 80 0
+                       q -20  15, -40  20
+                       q -20  -5, -40 -20 Z;
+                       M  60 207
+                       c  40 -40,  40 -40, 80 0
+                       q -20  15, -40  20
+                       q -20  -5, -40 -20 Z;
+                       
+                       M  60 180
+                       c  40 -40,  40 -40, 80 0
+                       q -20  15, -40  20
+                       q -20  -5, -40 -20 Z;
+                       M  60 180
+                       c  40 -40,  40 -40, 80 0
+                       q -20  15, -40  20
+                       q -20  -5, -40 -20 Z;
+                       
+                       M  60 180
+                       c  10 -55,  10 -55, 80 0
+                       q -20  15, -40  20
+                       q -20  -5, -40 -20 Z;
+                       
+                       M  60 180
+                       c  40 -40,  40 -40, 80 0
+                       q -20  15, -40  20
+                       q -20  -5, -40 -20 Z"/>
+      <animateTransform attributeName="transform"
+                        type="rotate"
+                        dur="10s"
+                        keyTimes="0; 0.9; 1"
+                        repeatCount="indefinite"
+                        values="0 100 150; 0 100 150; -180 100 150"
+                        additive="sum"/>
+    </path>
+  </defs>
+  
+  <!-- Top sand -->
+  <use xlink:href="#top-sand" mask="url(#inside-top)"/>
+  
+  <!-- Drop sand -->
+  <rect fill="#F8F" x="99" y="98" width="2" height="78"
+        mask="url(#inside-bottom)">
+    <animate attributeName="height"
+             dur="10s"
+             keyTimes="0; 0.05; 1"
+             repeatCount="indefinite"
+             values="0; 80; 80"/>
+    <animate attributeName="y"
+             dur="10s"
+             keyTimes="0; 0.85; 0.9; 1"
+             repeatCount="indefinite"
+             values="98; 98; 200; 200"/>
+  </rect>
+  
+  <!-- Bottom sand -->
+  <use xlink:href="#bottom-sand" mask="url(#inside-bottom)">
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      dur="10s"
+                      keyTimes="0; 0.9; 1"
+                      repeatCount="indefinite"
+                      values="0 100 100; 0 100 100; 180 100 100"
+                      additive="sum"/>
+  </use>
+  
+  
+</svg>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.1"
+     viewBox="0 0 200 200">
+  
+  
+  <!-- Background -->
+  <rect fill="#0BF" x="0" y="0" width="200" height="200"/>
+  
+  <defs>
+    <mask id="inside">
+      <circle fill="#FFF" cx="100" cy="100" r="70"/>
+    </mask>
+    <path id="ship" fill="#73D" fill-opacity="0.99"
+          stroke="#fff" stroke-width="0.0"
+          d="M 175 180
+             L 178 162
+             C 190 157, 192 150, 193 142
+             C 150 145, 100 150,  44 142
+             C  46 150,  50 156,  55 160
+             C  57 175,  70 178,  80 178 Z
+
+             M   2 100
+             L  50 145
+             L  53 145
+             L 2.5 99.5 Z
+             M  74  42
+             L  75 147
+             L  78 147
+             L  76  42 Z
+             M 120  25
+             L 118 148
+             L 122 148
+             L 122  25 Z
+             M 155  45
+             L 158 146
+             L 161 146
+             L 157  45 Z
+             M 187  70
+             L 185 144
+             L 187 144
+             L 188.5  70 Z
+             
+             M 121 27
+             v  11
+             h  20
+             v -11 Z
+             M 114 40
+             L 117 50
+             L 124 50
+             L 128 40 Z
+             
+             M  7 104
+             Q 28  96, 45 105
+             Q 50  80, 75  45 Z
+             
+             M 85 55
+             l -18  7
+             c -13 15,  -4  42, 18  34
+             c -13 -5, -20 -25,  0 -41 Z
+             M 85 98
+             l -18  7
+             c -13 15,  -4  42, 18  34
+             c -13 -5, -20 -25,  0 -41 Z
+             M 130 50
+             l -20  8
+             c -10 12,   0  42, 20  37
+             c -10 -5, -20 -25,  0 -45 Z
+             M 130 98
+             l -18  7
+             c -13 15,  -4  42, 18  34
+             c -13 -5, -20 -25,  0 -41 Z
+             M 165 54
+             l -18  7
+             c -13 15,  -4  42, 18  34
+             c -13 -5, -20 -25,  0 -41 Z
+             
+             M 135 150
+             c  25 -30, 40 -35, 52 -36
+             l   1 -43 Z
+             "/>
+  </defs>
+  
+  <!-- Ring -->
+  <path fill="#FFF"
+        d="M 100 20
+           a 80 80, 0 0 1, 0  160
+           a 80 80, 0 0 1, 0 -160
+           m 0 5
+           a 75 75, 0 0 0, 0  150
+           a 75 75, 0 0 0, 0 -150"/>
+  
+<!--  <use xlink:href="#ship"/>-->
+  
+  <g mask="url(#inside)">
+    <path fill="#E07" fill-opacity="1"
+          d="M -100 95
+             c 25 10, 25 10, 50 0 c 25 -10, 25 -10, 50 0
+             c 25 10, 25 10, 50 0 c 25 -10, 25 -10, 50 0
+             c 25 10, 25 10, 50 0 c 25 -10, 25 -10, 50 0
+             c 25 10, 25 10, 50 0 c 25 -10, 25 -10, 50 0
+             v 200 h -400 Z">
+      <animateTransform attributeName="transform"
+                        type="translate"
+                        begin="-1"
+                        dur="4s"
+                        repeatCount="indefinite"
+                        values="-50; 50"
+                        additive="sum"/>
+    </path>
+  </g>
+  <use xlink:href="#ship" transform="translate(65 50) scale(0.3)">
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      calcMode="spline"
+                      dur="3s"
+                      begin="-2.3s"
+                      repeatCount="indefinite"
+                      keySplines="0.3 0 0.7 1; 0.3 0 0.7 1"
+                      keyTimes="0; 0.5; 1"
+                      values="0 18; 0 -17; 0 18"
+                      additive="sum"/>
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      calcMode="spline"
+                      dur="3s"
+                      repeatCount="indefinite"
+                      keySplines="0.3 0 0.7 1; 0.3 0 0.7 1"
+                      values="-16 100 100; 16 100 100; -16 100 100"
+                      additive="sum"/>
+  </use>
+  <g mask="url(#inside)">
+    <path fill="#F4B" fill-opacity="1"
+          d="M -100 100
+             c 25 10, 25 10, 50 0 c 25 -10, 25 -10, 50 0
+             c 25 10, 25 10, 50 0 c 25 -10, 25 -10, 50 0
+             c 25 10, 25 10, 50 0 c 25 -10, 25 -10, 50 0
+             c 25 10, 25 10, 50 0 c 25 -10, 25 -10, 50 0
+             v 200 h -400 Z">
+      <animateTransform attributeName="transform"
+                        type="translate"
+                        dur="3s"
+                        repeatCount="indefinite"
+                        values="-50; 50"
+                        additive="sum"/>
+    </path>
+  </g>
+  
+  
+</svg>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.1"
+     viewBox="0 0 200 200">
+  
+  
+  <!-- Background -->
+  <rect fill="#FBB" x="0" y="0" width="200" height="200"/>
+  <rect fill="#222" x="0" y="0" width="200" height="200"/>
+  
+  '<!-- Rings -->
+  <circle fill-opacity="0" stroke="#3E2" cx="100" cy="100" r="80"/>
+  <circle fill-opacity="0" stroke="#3E2" cx="100" cy="100" r="60"/>
+  <circle fill-opacity="0" stroke="#3E2" cx="100" cy="100" r="40"/>
+  <circle fill-opacity="0" stroke="#3E2" cx="100" cy="100" r="20"/>
+  
+  <!-- Axis -->
+  <line stroke="#3E2" x1="100" y1=" 20" x2="100" y2="180"/>
+  <line stroke="#3E2" x1=" 20" y1="100" x2="180" y2="100"/>
+  <circle fill="#3E2" cx="100" cy="100" r="2"/>
+  <line stroke="#3E2" x1="100" y1="100" x2="100" y2="20" stroke-width="3">
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      dur="1s"
+                      keyTimes="0; 1"
+                      repeatCount="indefinite"
+                      values="0 100 100; 360 100 100"/>
+  </line>
+  
+  <!-- Points -->
+  <circle fill="#2B1" cx="100" cy=" 20" r="5">
+    <animate attributeName="fill-opacity"
+             dur="1s"
+             begin="0.000s"
+             keyTimes="0; 0.6; 1"
+             repeatCount="indefinite"
+             values="1; 0; 0"/>
+  </circle>
+  <circle fill="#2B1" cx="143" cy=" 57" r="5">
+    <animate attributeName="fill-opacity"
+             dur="1s"
+             begin="0.125s"
+             keyTimes="0; 0.6; 1"
+             repeatCount="indefinite"
+             values="1; 0; 0"/>
+  </circle>
+  <circle fill="#2B1" cx="150" cy="100" r="5">
+    <animate attributeName="fill-opacity"
+             dur="1s"
+             begin="0.250s"
+             keyTimes="0; 0.6; 1"
+             repeatCount="indefinite"
+             values="1; 0; 0"/>
+  </circle>
+  <circle fill="#2B1" cx="120" cy="120" r="5">
+    <animate attributeName="fill-opacity"
+             dur="1s"
+             begin="0.375s"
+             keyTimes="0; 0.6; 1"
+             repeatCount="indefinite"
+             values="1; 0; 0"/>
+  </circle>
+  <circle fill="#2B1" cx="143" cy="143" r="5">
+    <animate attributeName="fill-opacity"
+             dur="1s"
+             begin="0.375s"
+             keyTimes="0; 0.6; 1"
+             repeatCount="indefinite"
+             values="1; 0; 0"/>
+  </circle>
+  <circle fill="#2B1" cx="100" cy="170" r="5">
+    <animate attributeName="fill-opacity"
+             dur="1s"
+             begin="0.500s"
+             keyTimes="0; 0.6; 1"
+             repeatCount="indefinite"
+             values="1; 0; 0"/>
+  </circle>
+  <circle fill="#2B1" cx=" 50" cy="150" r="5">
+    <animate attributeName="fill-opacity"
+             dur="1s"
+             begin="0.625s"
+             keyTimes="0; 0.6; 1"
+             repeatCount="indefinite"
+             values="1; 0; 0"/>
+  </circle>
+  <circle fill="#2B1" cx=" 60" cy="100" r="5">
+    <animate attributeName="fill-opacity"
+             dur="1s"
+             begin="0.750s"
+             keyTimes="0; 0.6; 1"
+             repeatCount="indefinite"
+             values="1; 0; 0"/>
+  </circle>
+  <circle fill="#2B1" cx=" 50" cy=" 50" r="5">
+    <animate attributeName="fill-opacity"
+             dur="1s"
+             begin="0.875s"
+             keyTimes="0; 0.6; 1"
+             repeatCount="indefinite"
+             values="1; 0; 0"/>
+  </circle>
+  
+  
+</svg>

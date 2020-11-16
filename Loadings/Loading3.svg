@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.1"
+     viewBox="0 0 200 200">
+  
+  
+  <!-- Background -->
+  <rect fill="#A4A" x="0" y="0" width="200" height="200"/>
+  
+  <defs>
+    <rect id="block" fill="#FFF" x="90" y="50" width="20" height="100"/>
+  </defs>
+  
+  <use xlink:href="#block" transform="translate(-45)">
+    <animate attributeName="fill-opacity"
+             begin="0.0s"
+             dur="0.8s"
+             values="1; 0.2"
+             repeatCount="indefinite"/>
+  </use>
+  <use xlink:href="#block" transform="translate(-15)">
+    <animate attributeName="fill-opacity"
+             begin="0.1s"
+             dur="0.8s"
+             values="1; 0.2"
+             repeatCount="indefinite"/>
+  </use>
+  <use xlink:href="#block" transform="translate( 15)">
+    <animate attributeName="fill-opacity"
+             begin="0.2s"
+             dur="0.8s"
+             values="1; 0.2"
+             repeatCount="indefinite"/>
+  </use>
+  <use xlink:href="#block" transform="translate( 45)">
+    <animate attributeName="fill-opacity"
+             begin="0.3s"
+             dur="0.8s"
+             values="1; 0.2"
+             repeatCount="indefinite"/>
+  </use>
+  
+  
+</svg>

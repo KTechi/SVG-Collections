@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.1"
+     viewBox="0 0 200 200">
+  
+  
+  
+  
+  <rect fill="#F72" x="-10" y="-10" width="220" height="220"/>
+  
+  
+  <path fill="#FFF">
+    <animate attributeName="d"
+             dur="2.0s"
+             repeatCount="indefinite"
+             keyTimes="0; 0.25; 0.5; 0.75; 1"
+             values="M 40 160 h20 v-120 h-20 Z;
+                     M 40 160 h20 v-50  h-20 Z;
+                     M 40 160 h20 v-80  h-20 Z;
+                     M 40 160 h20 v-20  h-20 Z;
+                     M 40 160 h20 v-120 h-20 Z"/>
+  </path>
+  
+  
+  <path fill="#FFF">
+    <animate attributeName="d"
+             dur="1.8s"
+             repeatCount="indefinite"
+             keyTimes="0; 0.25; 0.5; 0.75; 1"
+             values="M 65 160 h20 v-60  h-20 Z;
+                     M 65 160 h20 v-90  h-20 Z;
+                     M 65 160 h20 v-40  h-20 Z;
+                     M 65 160 h20 v-90  h-20 Z;
+                     M 65 160 h20 v-60  h-20 Z"/>
+  </path>
+  
+  
+  <path fill="#FFF">
+    <animate attributeName="d"
+             dur="2.2s"
+             repeatCount="indefinite"
+             keyTimes="0; 0.20; 0.4; 0.70; 1"
+             values="M 90 160 h20 v-100 h-20 Z;
+                     M 90 160 h20 v-60  h-20 Z;
+                     M 90 160 h20 v-80  h-20 Z;
+                     M 90 160 h20 v-30  h-20 Z;
+                     M 90 160 h20 v-100 h-20 Z"/>
+  </path>
+  
+  
+  <path fill="#FFF">
+    <animate attributeName="d"
+             dur="2.0s"
+             repeatCount="indefinite"
+             keyTimes="0; 0.25; 0.5; 0.75; 1"
+             values="M 115 160 h20 v-100 h-20 Z;
+                     M 115 160 h20 v-30  h-20 Z;
+                     M 115 160 h20 v-120 h-20 Z;
+                     M 115 160 h20 v-40  h-20 Z;
+                     M 115 160 h20 v-100 h-20 Z"/>
+  </path>
+  
+  
+  
+  
+</svg>

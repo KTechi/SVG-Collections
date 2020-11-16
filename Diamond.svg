@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.1"
+     viewBox="0 0 200 200">
+  
+  
+  <!-- Background -->
+  <rect fill="#27F" x="0" y="0" width="200" height="200"/>
+  
+  <path fill="#FFF"
+        stroke="#14A"
+        stroke-width="3"
+        d="M  40 80 l  20 -30 h 80 l 20 30 l -60 70 Z
+           M  40 80 h 120   Z
+           M  80 80 l  20  70 Z
+           M  80 80 l -20 -30 Z
+           M  80 80 l  20 -30 Z
+           M 120 80 l -20  70 Z
+           M 120 80 l -20 -30 Z
+           M 120 80 l  20 -30 Z">
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      dur="1.5s"
+                      keyTimes="0; 0.5; 1"
+                      repeatCount="indefinite"
+                      values="8 100 160; -8 100 160; 8 100 160"/>
+  </path>
+  
+  <defs>
+    <path id="star"
+          fill="#FFF"
+          d="M 100 80
+             q   5  15,  20  20
+             q -15   5, -20  20
+             q  -5 -15, -20 -20
+             q  15  -5,  20 -20"/>
+  </defs>
+  
+  <use xlink:href="#star" transform="translate(-55 -60)">
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      begin="0.0s"
+                      dur="1s"
+                      keyTimes="0; 0.5; 1"
+                      repeatCount="indefinite"
+                      values="15 100 100; -15 100 100; 15 100 100"
+                      additive="sum"/>
+  </use>
+  <use xlink:href="#star" transform="translate(50 40)">
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      begin="0.0s"
+                      dur="1s"
+                      keyTimes="0; 0.5; 1"
+                      repeatCount="indefinite"
+                      values="15 100 100; -15 100 100; 15 100 100"
+                      additive="sum"/>
+  </use>
+  <use xlink:href="#star" transform="translate(65 -50)">
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      begin="-0.2s"
+                      dur="1s"
+                      keyTimes="0; 0.5; 1"
+                      repeatCount="indefinite"
+                      values="15 100 100; -15 100 100; 15 100 100"
+                      additive="sum"/>
+  </use>
+  <use xlink:href="#star" transform="translate(-45 45)">
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      begin="-0.2s"
+                      dur="1s"
+                      keyTimes="0; 0.5; 1"
+                      repeatCount="indefinite"
+                      values="15 100 100; -15 100 100; 15 100 100"
+                      additive="sum"/>
+  </use>
+  
+  
+</svg>

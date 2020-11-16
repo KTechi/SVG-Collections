@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.1"
+     viewBox="0 0 200 200">
+  
+  
+  <!-- Background -->
+  <rect fill="#A4A" x="0" y="0" width="200" height="200"/>
+  
+  <circle fill="#FFF" cx="100.0" cy=" 50.0" r="10"><animate attributeName="fill-opacity" begin="-0.0s" dur="0.8s" values="1; 0" repeatCount="indefinite"/></circle>
+  <circle fill="#FFF" cx="135.4" cy=" 64.6" r="10"><animate attributeName="fill-opacity" begin="-0.7s" dur="0.8s" values="1; 0" repeatCount="indefinite"/></circle>
+  <circle fill="#FFF" cx="150.0" cy="100.0" r="10"><animate attributeName="fill-opacity" begin="-0.6s" dur="0.8s" values="1; 0" repeatCount="indefinite"/></circle>
+  <circle fill="#FFF" cx="135.4" cy="135.4" r="10"><animate attributeName="fill-opacity" begin="-0.5s" dur="0.8s" values="1; 0" repeatCount="indefinite"/></circle>
+  <circle fill="#FFF" cx="100.0" cy="150.0" r="10"><animate attributeName="fill-opacity" begin="-0.4s" dur="0.8s" values="1; 0" repeatCount="indefinite"/></circle>
+  <circle fill="#FFF" cx=" 64.6" cy="135.4" r="10"><animate attributeName="fill-opacity" begin="-0.3s" dur="0.8s" values="1; 0" repeatCount="indefinite"/></circle>
+  <circle fill="#FFF" cx=" 50.0" cy="100.0" r="10"><animate attributeName="fill-opacity" begin="-0.2s" dur="0.8s" values="1; 0" repeatCount="indefinite"/></circle>
+  <circle fill="#FFF" cx=" 64.6" cy=" 64.6" r="10"><animate attributeName="fill-opacity" begin="-0.1s" dur="0.8s" values="1; 0" repeatCount="indefinite"/></circle>
+  
+  
+</svg>

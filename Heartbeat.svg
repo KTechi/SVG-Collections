@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.1"
+     viewBox="0 0 200 200">
+  
+  
+  <!-- Background -->
+  <rect fill="#FFF" x="0" y="0" width="200" height="200"/>
+  
+  <!-- Heart -->
+  <path fill="#F00">
+    <animate attributeName="d"
+             begin="-0.9s"
+             dur="1.6s"
+             keyTimes="0; 0.20; 0.26; 0.5; 1"
+             repeatCount="indefinite"
+             values="M 100 160
+                     c 120 -100,   30 -150, 0 -100
+                     c -30  -50, -120    0, 0  100 Z;
+                     M 100 160
+                     c 120 -100,   30 -150, 0 -100
+                     c -30  -50, -120    0, 0  100 Z;
+                     
+                     M 100 166
+                     c 132 -100,   33 -167, 0 -112
+                     c -33  -55, -132   12, 0  112 Z;
+                     
+                     M 100 160
+                     c 120 -100,   30 -150, 0 -100
+                     c -30  -50, -120    0, 0  100 Z;
+                     M 100 160
+                     c 120 -100,   30 -150, 0 -100
+                     c -30  -50, -120    0, 0  100 Z"/>
+  </path>
+  <path fill-opacity="0"
+        stroke="#000"
+        stroke-width="4px"
+        stroke-dasharray="480"
+        d="M 0 110
+           h 20
+           q 30 -26, 36 0
+           h 24
+           l 10   16
+           l 10 -116
+           l 10  122
+           l 10  -22
+           h 24
+           q 26 -44, 36 0
+           h 20">
+    <animate attributeName="stroke-dashoffset"
+             dur="1.6s"
+             keyTimes="0; 0.15; 0.3; 0.45;  0.6; 0.75;  0.9;    1"
+             repeatCount="indefinite"
+             values="960;  840; 610;  480; 360; 130; 0; 0"/>
+<!--             values="480;  360; 130;    0; -120; -350; -480; -480"/>-->
+  </path>
+  
+  
+</svg>
