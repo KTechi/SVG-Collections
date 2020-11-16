@@ -8,3 +8,9 @@ SVG (Scalable Vector Graphics)
 | <a href="Heartbeat.svg"><img src="/Heartbeat.svg" width=200px><br>Heartbeat.svg</a> | <a href="Hourclock.svg"  ><img src="/Hourclock.svg"   width=200px><br>Hourclock.svg</a>   | <a href="Movie.svg"  ><img src="/Movie.svg"   width=200px><br>Movie.svg</a>   |
 | <a href="Pacman.svg"   ><img src="/Pacman.svg"    width=200px><br>Pacman.svg</a>    | <a href="Radar.svg"      ><img src="/Radar.svg"       width=200px><br>Radar.svg</a>       | <a href="Rifle.svg"  ><img src="/Rifle.svg"   width=200px><br>Rifle.svg</a>   |
 | <a href="Science.svg"  ><img src="/Science.svg"   width=200px><br>Science.svg</a>   | <a href="Transformer.svg"><img src="/Transformer.svg" width=200px><br>Transformer.svg</a> |
+
+# Loadings
+| 1 | 2 | 3 | 4 |
+|:-:|:-:|:-:|:-:|
+| <a href="Loadings/Loading1.svg"><img src="/Loadings/Loading1.svg" width=200px></a> | <a href="Loadings/Loading2.svg"><img src="/Loadings/Loading2.svg" width=200px></a> | <a href="Loadings/Loading3.svg"><img src="/Loadings/Loading3.svg" width=200px></a> | <a href="Loadings/Loading4.svg"><img src="/Loadings/Loading4.svg" width=200px></a> |
+| <a href="Loadings/Loading5.svg"><img src="/Loadings/Loading5.svg" width=200px></a> | <a href="Loadings/Loading6.svg"><img src="/Loadings/Loading6.svg" width=200px></a> | <a href="Loadings/Loading7.svg"><img src="/Loadings/Loading7.svg" width=200px></a> | <a href="Loadings/Loading8.svg"><img src="/Loadings/Loading8.svg" width=200px></a> |
