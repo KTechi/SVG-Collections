@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1030.11626 600">
+  <g fill="none" stroke="#FFF" stroke-width="100" transform="translate(300 300)">
+    <path d="M 145.30954 -203.43336 A 250 250, 0 1 0, 145.30954 203.43336"/>
+    <circle cx="430.11626" r="250"/>
+    <line stroke-width="20" x1="-250" x2="250" transform="rotate(-70)"/>
+  </g>
+</svg>
