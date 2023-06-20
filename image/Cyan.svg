@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1000 1000">
+    <rect fill="#000" x="0" y="0" width="1000" height="1000"/>
+    <path stroke="#FFF" stroke-width="0" d="
+M 500 100 L -2100 1000
+M 500 100 L -1700 1000
+M 500 100 L -1300 1000
+M 500 100 L  -900 1000
+M 500 100 L  -500 1000
+M 500 100 L  -100 1000
+M 500 100 L   300 1000
+M 500 100 L   700 1000
+M 500 100 L  1100 1000
+M 500 100 L  1500 1000
+M 500 100 L  1900 1000
+M 500 100 L  2300 1000
+M 500 100 L  2700 1000
+M 500 100 L  3100 1000"/>
+    <path stroke="#0FF" stroke-width="3" d="
+M 0 284 H 1000
+M 0 306 H 1000
+M 0 333 H 1000
+M 0 369 H 1000
+M 0 418 H 1000
+M 0 489 H 1000
+M 0 600 H 1000
+M 0 800 H 1000"/>
+
+    <path stroke="#0FF" stroke-width="3" d="M 500 100 L -1700 1000">
+        <animate begin="0" dur="1" attributeName="d" repeatCount="indefinite"
+                 values="M 500 100 L -1700 1000;
+                         M 500 100 L -2100 1000"/>
+    </path>
+    <path stroke="#0FF" stroke-width="3" d="M 500 100 L -1300 1000">
+        <animate begin="0" dur="1" attributeName="d" repeatCount="indefinite"
+                 values="M 500 100 L -1300 1000;
+                         M 500 100 L -1700 1000"/>
+    </path>
+    <path stroke="#0FF" stroke-width="3" d="M 500 100 L  -900 1000">
+        <animate begin="0" dur="1" attributeName="d" repeatCount="indefinite"
+                 values="M 500 100 L  -900 1000;
+                         M 500 100 L -1300 1000"/>
+    </path>
+    <path stroke="#0FF" stroke-width="3" d="M 500 100 L  -500 1000">
+        <animate begin="0" dur="1" attributeName="d" repeatCount="indefinite"
+                 values="M 500 100 L  -500 1000;
+                         M 500 100 L  -900 1000"/>
+    </path>
+    <path stroke="#0FF" stroke-width="3" d="M 500 100 L  -100 1000">
+        <animate begin="0" dur="1" attributeName="d" repeatCount="indefinite"
+                 values="M 500 100 L  -100 1000;
+                         M 500 100 L  -500 1000"/>
+    </path>
+    <path stroke="#0FF" stroke-width="3" d="M 500 100 L   300 1000">
+        <animate begin="0" dur="1" attributeName="d" repeatCount="indefinite"
+                 values="M 500 100 L   300 1000;
+                         M 500 100 L  -100 1000"/>
+    </path>
+    <path stroke="#0FF" stroke-width="3" d="M 500 100 L   700 1000">
+        <animate begin="0" dur="1" attributeName="d" repeatCount="indefinite"
+                 values="M 500 100 L   700 1000;
+                         M 500 100 L   300 1000"/>
+    </path>
+    <path stroke="#0FF" stroke-width="3" d="M 500 100 L  1100 1000">
+        <animate begin="0" dur="1" attributeName="d" repeatCount="indefinite"
+                 values="M 500 100 L  1100 1000;
+                         M 500 100 L   700 1000"/>
+    </path>
+    <path stroke="#0FF" stroke-width="3" d="M 500 100 L  1500 1000">
+        <animate begin="0" dur="1" attributeName="d" repeatCount="indefinite"
+                 values="M 500 100 L  1500 1000;
+                         M 500 100 L  1100 1000"/>
+    </path>
+    <path stroke="#0FF" stroke-width="3" d="M 500 100 L  1900 1000">
+        <animate begin="0" dur="1" attributeName="d" repeatCount="indefinite"
+                 values="M 500 100 L  1900 1000;
+                         M 500 100 L  1500 1000"/>
+    </path>
+    <path stroke="#0FF" stroke-width="3" d="M 500 100 L  2300 1000">
+        <animate begin="0" dur="1" attributeName="d" repeatCount="indefinite"
+                 values="M 500 100 L  2300 1000;
+                         M 500 100 L  1900 1000"/>
+    </path>
+    <path stroke="#0FF" stroke-width="3" d="M 500 100 L  2700 1000">
+        <animate begin="0" dur="1" attributeName="d" repeatCount="indefinite"
+                 values="M 500 100 L  2700 1000;
+                         M 500 100 L  2300 1000"/>
+    </path>
+    <path stroke="#0FF" stroke-width="3" d="M 500 100 L  3100 1000">
+        <animate begin="0" dur="1" attributeName="d" repeatCount="indefinite"
+                 values="M 500 100 L  3100 1000;
+                         M 500 100 L  2700 1000"/>
+    </path>
+
+    <rect fill="#000" x="0" y="0" width="1000" height="283"/>
+
+    <rect stroke="#0FF" stroke-width="4" x="0" y="360" width="40" height="40">
+        <animate begin="0" dur="12" attributeName="x" repeatCount="indefinite"
+                 values="1200; -400"/>
+    </rect>
+    <rect stroke="#0FF" stroke-width="4" x="0" y="200" width="28" height="110">
+        <animate begin="0" dur="12" attributeName="x" repeatCount="indefinite"
+                 values="1020; -100"/>
+    </rect>
+
+    <path fill="#000" stroke="#0FF" stroke-width="5" stroke-linejoin="round" d="M 500 650 m 100 0 v 200 l -20 -150 v -160 Z">
+        <animate begin="0" dur="6" attributeName="d" repeatCount="indefinite"
+                 values="
+                 M 500 650 m  1000 0 m 100 0 v 200 l -220 -150 v -160 Z;
+                 M 500 650 m     0 0 m 100 0 v 200 l  -20 -150 v -160 Z;
+                 M 500 650 m -1000 0 m 100 0 v 200 l  180 -150 v -160 Z"/>
+    </path>
+    <path fill="#000" stroke="#0FF" stroke-width="5" stroke-linejoin="round" d="M 500 650 m -100 0 v 200 l 20 -150 v -160 Z">
+        <animate begin="0" dur="6" attributeName="d" repeatCount="indefinite"
+                 values="
+                 M 500 650 m  1000 0 m -100 0 v 200 l -180 -150 v -160 Z;
+                 M 500 650 m     0 0 m -100 0 v 200 l   20 -150 v -160 Z;
+                 M 500 650 m -1000 0 m -100 0 v 200 l  220 -150 v -160 Z"/>
+    </path>
+    <path fill="#000" stroke="#0FF" stroke-width="5" stroke-linejoin="round" d="M 500 650 m -100 0 h 200 l -20 -110 h -160 Z">
+        <animate begin="0" dur="6" attributeName="d" repeatCount="indefinite"
+                 values="
+                 M 500 650 m  1000 0 m -100 0 h 200 l -220 -110 h -160 Z;
+                 M 500 650 m     0 0 m -100 0 h 200 l  -20 -110 h -160 Z;
+                 M 500 650 m -1000 0 m -100 0 h 200 l  180 -110 h -160 Z"/>
+    </path>
+    <path fill="#000" stroke="#0FF" stroke-width="5" stroke-linejoin="round" d="M 500 650 h 100 v 200 h -200 v -200 Z">
+        <animate begin="0" dur="6" attributeName="d" repeatCount="indefinite"
+                 values="
+                 M 500 650 m  1000 0 h 100 v 200 h -200 v -200 Z;
+                 M 500 650 m     0 0 h 100 v 200 h -200 v -200 Z;
+                 M 500 650 m -1000 0 h 100 v 200 h -200 v -200 Z"/>
+    </path>
+
+    <path fill="#000" stroke="#0FF" stroke-width="5" stroke-linejoin="round" d="M 500 650 m 100 0 v 200 l -20 -150 v -160 Z">
+        <animate begin="-3s" dur="6" attributeName="d" repeatCount="indefinite"
+                 values="
+                 M 500 650 m  1000 0 m 100 0 v 200 l -220 -150 v -160 Z;
+                 M 500 650 m     0 0 m 100 0 v 200 l  -20 -150 v -160 Z;
+                 M 500 650 m -1000 0 m 100 0 v 200 l  180 -150 v -160 Z"/>
+    </path>
+    <path fill="#000" stroke="#0FF" stroke-width="5" stroke-linejoin="round" d="M 500 650 m -100 0 v 200 l 20 -150 v -160 Z">
+        <animate begin="-3s" dur="6" attributeName="d" repeatCount="indefinite"
+                 values="
+                 M 500 650 m  1000 0 m -100 0 v 200 l -180 -150 v -160 Z;
+                 M 500 650 m     0 0 m -100 0 v 200 l   20 -150 v -160 Z;
+                 M 500 650 m -1000 0 m -100 0 v 200 l  220 -150 v -160 Z"/>
+    </path>
+    <path fill="#000" stroke="#0FF" stroke-width="5" stroke-linejoin="round" d="M 500 650 m -100 0 h 200 l -20 -110 h -160 Z">
+        <animate begin="-3s" dur="6" attributeName="d" repeatCount="indefinite"
+                 values="
+                 M 500 650 m  1000 0 m -100 0 h 200 l -220 -110 h -160 Z;
+                 M 500 650 m     0 0 m -100 0 h 200 l  -20 -110 h -160 Z;
+                 M 500 650 m -1000 0 m -100 0 h 200 l  180 -110 h -160 Z"/>
+    </path>
+    <path fill="#000" stroke="#0FF" stroke-width="5" stroke-linejoin="round" d="M 500 650 h 100 v 200 h -200 v -200 Z">
+        <animate begin="-3s" dur="6" attributeName="d" repeatCount="indefinite"
+                 values="
+                 M 500 650 m  1000 0 h 100 v 200 h -200 v -200 Z;
+                 M 500 650 m     0 0 h 100 v 200 h -200 v -200 Z;
+                 M 500 650 m -1000 0 h 100 v 200 h -200 v -200 Z"/>
+    </path>
+</svg>
